@@ -1,0 +1,38 @@
+#button{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+
+
+#float-container{
+  margin-top: 80px !important;
+}
+#row-create{
+  padding-bottom: 1rem;
+}
+#button{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+@media (min-width: 992px) { 
+  .p-5{
+    width: 30vw;
+  }
+ 
+ }
+ .row-container{
+  position: sticky;
+  top: 66px;
+  z-index: 5;
+  background: #fff;
+}
+
+.riddleheaderCard{
+  position: sticky;
+  z-index: 6;
+  top: 141px;
+}

@@ -1,0 +1,39 @@
+#userId{
+    color: #fafafa;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    line-height: 11px;
+}
+
+#UserInfo{
+    background-color: (var(--bs-success-rgb),var(--bs-bg-opacity)) !important;;
+    background-color: green;
+    color: white;
+}
+#navbar{
+    position: fixed;
+    z-index: 10;
+    flex-wrap: initial;
+}
+#container-navbar{
+    height: 50px;   
+}
+#logOutButton, #HomeButton{
+    padding: 1rem;
+    border: none;
+    background: none;
+}
+#logOutButton:active, #HomeButton:active {
+    outline: none;
+    border: none;
+    }
+    
+#logOutButton:focus, #HomeButton:focus {
+    outline:0;
+    box-shadow: none;
+}
+#score{
+    color:#fff
+}

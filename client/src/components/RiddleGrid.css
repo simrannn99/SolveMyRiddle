@@ -1,0 +1,96 @@
+.headerCard{
+    background-color: purple;
+    color: white;
+}
+
+.OPEN{
+    border-color: green;
+    border-radius: 23px !important;
+}
+.OPEN_card {
+    border-radius: 23px !important;
+}
+
+.CLOSED{
+    border-color: red;
+    border-radius: 23px !important;
+}
+.CLOSED_card {
+    border-radius: 23px !important;
+}
+.OPEN_header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0 !important;
+    background-color: green;
+    color: white;
+}
+.CLOSED_header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0 !important;
+    background-color: red;
+    color: white;
+}
+.col-card{
+    padding:1rem;
+}
+#user_image{
+    width: 1.8rem;
+}
+
+.OPEN_header > div:first-child {
+    text-align : left;
+}
+
+    
+.OPEN_header > div:last-child {
+    text-align : right;
+}
+
+.OPEN_header > div:last-child > span {
+    margin-left : 10px;
+}
+.CLOSED_header > div:first-child {
+    text-align : left;
+}
+
+    
+.CLOSED_header > div:last-child {
+    text-align : right;
+}
+
+.CLOSED_header > div:last-child > span {
+    margin-left : 10px;
+}
+
+.correct{
+    background-color: #8AFF8A;
+}
+.Answer >div:first-child {
+    justify-content: space-between;
+    display: flex;
+}
+
+.Answer > div> div:first-child {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.Answer > div >div > img {
+    margin-right : 5px;
+}
+
+.Answer > div > span {
+    font-size: 11px;
+    display: inline-block;
+}
+
+.card-title.h5 > strong{
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    top: -15px;
+    position: relative;
+    left: -10px;
+}
